@@ -16,7 +16,7 @@ public class WebscketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/live-chat");
+        registry.addEndpoint("/livechat");
     }
 
 
